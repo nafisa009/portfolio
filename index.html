@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nafisa Nasrin — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Falling petals layer -->
+<div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+<!-- Cursor glow -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">N<span>.</span>N</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="assets/Nafisa_Nasrin_Resume.pdf" download class="nav-resume">Resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="ruin-glow ruin-glow-1"></div>
+    <div class="ruin-glow ruin-glow-2"></div>
+    <svg class="hero-silhouette" viewBox="0 0 500 700" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="silGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#2a1442"/>
+          <stop offset="100%" stop-color="#0f0819"/>
+        </linearGradient>
+      </defs>
+      <!-- flowing hair -->
+      <path d="M250 90 C160 100 120 220 140 340 C150 420 120 480 90 560 C160 540 190 470 200 400 C205 470 215 560 180 640 C240 610 260 520 258 440 C265 520 300 610 360 640 C330 560 320 470 322 400 C335 470 355 540 420 560 C395 480 365 420 375 340 C395 220 355 100 250 90 Z" fill="url(#silGrad)" opacity="0.55"/>
+      <!-- head + shoulders silhouette -->
+      <ellipse cx="250" cy="180" rx="70" ry="82" fill="url(#silGrad)" opacity="0.7"/>
+      <path d="M130 430 C130 330 175 260 250 260 C325 260 370 330 370 430 L370 640 L130 640 Z" fill="url(#silGrad)" opacity="0.7"/>
+    </svg>
+    <div class="poneglyph-ring ring-1"></div>
+    <div class="poneglyph-ring ring-2"></div>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Software Engineering Student</p>
+    <h1 class="hero-name">Nafisa <span class="glow-text">Nasrin</span></h1>
+    <p class="hero-tagline">Uncovering the story behind every line of code —<br class="br-desktop"> the way history is uncovered, one Poneglyph at a time.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="section-head">
+    <p class="section-eyebrow">01 — The Archive</p>
+    <h2 class="section-title">About Me</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-card poneglyph">
+      <div class="poneglyph-border"></div>
+      <p class="about-text">
+        I'm <strong>Nafisa Nasrin</strong>, a Software Engineering student at
+        <strong>Daffodil International University</strong>, currently in my journey since 2024.
+        Like an archaeologist piecing together ancient history, I enjoy digging into problems,
+        breaking them apart, and building something meaningful out of the pieces — whether that's
+        a web app, a game, or a tool that makes someone's day a little easier.
+      </p>
+      <p class="about-text">
+        I work comfortably across the stack — from crafting interfaces with
+        <strong>HTML, CSS, JavaScript &amp; React</strong>, to solving problems with
+        <strong>Python, C, Java</strong> and a solid grip on <strong>Data Structures &amp; Algorithms</strong>.
+        I believe good software, like good history, is built one careful layer at a time.
+      </p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <span class="stat-num">4+</span>
+        <span class="stat-label">Projects Built</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">9+</span>
+        <span class="stat-label">Tech &amp; Tools</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">2024</span>
+        <span class="stat-label">Journey Began</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section skills" id="skills">
+  <div class="section-head">
+    <p class="section-eyebrow">02 — Devil Fruit Powers</p>
+    <h2 class="section-title">Skills</h2>
+  </div>
+  <div class="skills-grid" id="skillsGrid">
+    <!-- filled by JS -->
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section projects" id="projects">
+  <div class="section-head">
+    <p class="section-eyebrow">03 — Expeditions</p>
+    <h2 class="section-title">Projects</h2>
+  </div>
+
+  <div class="projects-featured" id="capstoneGrid"></div>
+
+  <h3 class="subheading">Other Builds</h3>
+  <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section education" id="education">
+  <div class="section-head">
+    <p class="section-eyebrow">04 — The Path</p>
+    <h2 class="section-title">Education</h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">2024 — Ongoing</span>
+        <h3>BSc in Software Engineering</h3>
+        <p>Daffodil International University</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="section certificates" id="certificates">
+  <div class="section-head">
+    <p class="section-eyebrow">05 — Ancient Seals</p>
+    <h2 class="section-title">Certificates</h2>
+  </div>
+  <p class="section-note">Placeholder entries below — swap in your real certificates anytime (see <code>script.js</code>).</p>
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="section-head">
+    <p class="section-eyebrow">06 — Send a Den Den Mushi</p>
+    <h2 class="section-title">Get in Touch</h2>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p class="contact-lead">Have a project in mind, or just want to say hi? My inbox is always open.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:nafisanasrin28@gmail.com">nafisanasrin28@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Phone</span>
+          <a href="tel:+8801709090365">01709090365</a>
+        </li>
+      </ul>
+      <div class="social-row" id="socialRow"></div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed &amp; built by Nafisa Nasrin — inspired by the world of Nico Robin.</p>
+  <p class="footer-year">&copy; <span id="year"></span> All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
